@@ -20,7 +20,7 @@ const Login: React.FC = () => {
     });
 
     if (authError) {
-      setError("Email atau password salah.");
+      setError(authError.message);
     } else {
       navigate("/admin/dashboard");
     }
