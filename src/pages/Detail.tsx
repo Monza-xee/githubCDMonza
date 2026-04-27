@@ -153,7 +153,7 @@ const Detail: React.FC = () => {
               className="btn btn-primary btn-lg"
               style={{ textDecoration: "none" }}
             >
-              ⬇ Download {game.name}
+              ⬇ Download Game ({game.file_size})
             </a>
           </div>
         </div>
